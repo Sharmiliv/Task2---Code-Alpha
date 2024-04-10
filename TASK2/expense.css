@@ -1,0 +1,47 @@
+  body {
+    font-family: Helvetica, sans-serif;
+    background-image: url("expense.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  h1{
+    text-align: center;
+    font-size: 42px;
+    color: blueviolet;
+  }
+  form {
+    margin-bottom: 20px;
+    color: blue;
+  }
+  input[type="text"] {
+    padding: 5px;
+    font-size: 28px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+  }
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: rgb(43, 226, 134);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+    color: blue;
+  }
+  .edit-btn, .delete-btn {
+    padding: 3px 5px;
+    cursor: pointer;
+    color: brown;
+  }
+
+  .contents{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: brown;
+  }
